@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>Clash Royale - Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        body, html { height: 100%; margin: 0; overflow: hidden; font-family: 'Arial Black', Gadget, sans-serif; }
+        
+        .top-bar { background-color: #00a1a1; height: 45px; width: 100%; position: absolute; top: 0; z-index: 10; display: flex; justify-content: space-between; align-items: center; padding: 0 15px; border-bottom: 2px solid #000; }
+        
+        .sidebar-home { background-color: #f8f9fa; border-right: 3px solid #555; height: 100vh; padding: 70px 25px; }
+        
+        .main-content { background-image: url('slika.jpg'); background-size: cover; background-position: center; height: 100vh; }
+        
+        .nav-menu { list-style: none; padding: 0; font-weight: bold; font-size: 1.1rem; line-height: 2; }
+        .nav-menu a { text-decoration: none; color: black; }
+        .nav-menu a:hover { color: #00a1a1; }
+
+        /* Stil za Profile Box sa slike */
+        .profile-box { 
+            background-color: #00a1a1; 
+            border: 4px solid #000; 
+            border-radius: 40px; 
+            padding: 40px; 
+            color: black; 
+            text-align: center; 
+            width: 550px;
+            box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+        }
+
+        .profile-box h2 { font-weight: 900; margin-bottom: 20px; text-decoration: underline; }
+        .profile-data { font-size: 1.5rem; font-weight: bold; margin-bottom: 10px; }
+    </style>
+</head>
+<body>
+    <div class="top-bar">
+        <img src="logo.jpg" height="30">
+        <i class="bi bi-person-circle text-white fs-4"></i>
+    </div>
+
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+            <div class="col-3 sidebar-home">
+                <h1 style="font-size: 2.5rem; color: black; margin-bottom: 20px;">HOME</h1>
+                <ul class="nav-menu">
+                    <li><a href="home.html">Home</a></li>
+                    <li style="color: #00a1a1;">Profile</li>
+                    <li>Current deck</li>
+                    <li>Cards</li>
+                    <li>Battles</li>
+                    <li>Clans</li>
+                </ul>
+            </div>
+
+            <div class="col-9 main-content d-flex justify-content-center align-items-center">
+                <div class="profile-box">
+                    <h2>Profile</h2>
+                    <div class="profile-data">Player Name: aleksa5</div>
+                    <div class="profile-data">Trofeji: 15,000</div>
+                    <div class="profile-data">Rank: Ultimate Champion</div>
+                    <div class="profile-data">Arena: 24</div>
+                    <div class="profile-data">Klasa: Elite</div>
+                    <div class="profile-data">Level: 14</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
