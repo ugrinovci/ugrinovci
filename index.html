@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+    <meta charset="UTF-8">
+    <title>Clash Royale - Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        body, html { height: 100%; margin: 0; overflow: hidden; font-family: sans-serif; }
+        .sidebar { background-color: #d1dbdf; border-right: 3px solid #555; height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+        .main-content { background-image: url('slika.jpg'); background-size: cover; background-position: center; height: 100vh; }
+        .login-box { background-color: #00a1a1; padding: 50px; border: 4px solid #000; width: 400px; }
+        .btn-custom { background: white; color: black; border: 3px solid #000; font-weight: bold; width: 100%; padding: 10px; text-transform: uppercase; text-decoration: none; display: block; margin-bottom: 10px; text-align: center; }
+        .btn-custom:hover { background: #eee; color: black; }
+    </style>
+</head>
+<body>
+    <div class="container-fluid p-0">
+        <div class="row g-0">
+            <div class="col-3 sidebar">
+                <i class="bi bi-lock-fill" style="font-size: 7rem;"></i>
+                <h2 class="text-center fw-bold mt-3">You must<br>log in first</h2>
+            </div>
+            <div class="col-9 main-content d-flex justify-content-center align-items-center">
+                <div class="login-box">
+                    <a href="home.html" class="btn-custom">Login</a>
+                    <a href="#" class="btn-custom">Register</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
